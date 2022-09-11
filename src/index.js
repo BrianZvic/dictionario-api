@@ -12,9 +12,12 @@ import {
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <BrowserRouter>
+<BrowserRouter>
     <Routes>
-      <Route path="/search" index element={<App></App>} />
+      <Route path="/search" element={<App />}>
+
+       
+      </Route>
     </Routes>
   </BrowserRouter>
 );
