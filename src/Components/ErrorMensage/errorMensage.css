@@ -1,0 +1,11 @@
+.error-conteiner{
+    margin:10px 0 10px 0;
+}
+
+.error-conteiner p{
+    margin: 5px 50px 5px 50px;
+    color: red;
+    font-weight: 700;
+   font-size: 13px;
+   
+}

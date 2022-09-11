@@ -1,0 +1,65 @@
+.phrases-container{
+    width: 100%;
+    margin-top: 20px;
+    
+    
+}
+.word-conteiner{
+    
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 25px 5px 25px;
+    
+}
+
+.word-conteiner h3{
+    padding: 0;
+    margin: 0%;
+    font-size: 30px;
+    text-transform: capitalize;
+    
+}
+
+.word-conteiner button{
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    color: #ae9cff;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+}
+.phonetic{
+    padding: 0;
+    margin: 3px 0 3px 0px;
+}
+.phrases-container p{
+    margin: 5px 25px 5px 25px;
+}
+
+.example{
+    padding: 8px 0 8px 0;
+    padding-left: 20px;
+    border-left: 3px #ae9cff solid;
+}
+
+.phonetic{
+    color: #8c8c8c;
+}
+
+.meanings{
+    padding-left: 8px;
+    border-left:  #ae9cff solid 3px;
+    margin: 10px 25px 10px 25px;
+     
+}
+
+.meanings b span{
+    text-transform: capitalize;
+}
+
+.meanings p{
+    text-transform: capitalize;
+    font-family: 14px;
+}
