@@ -1,0 +1,44 @@
+.header{
+    width: 100%;
+    height: 60px;
+    background-color: #ae9cff;
+    position: fixed;
+    top: 0;
+    box-shadow: 0px 0px 21px 7px rgba(0,0,0,0.48);
+    display: flex;
+    color: #FFF;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.header span{
+    color: #FFF;
+    font-size: 40px;
+    margin-left: 30px;
+}
+
+.black-mode{
+    background-color: #FFF;
+    height: 30px;
+    width: 60px;
+    border: none;
+    border-radius: 25px;
+    position: relative;
+    cursor: pointer;
+    margin-right: 30px;
+   
+}
+
+.black-mode span{
+    width: 30px;
+    height: 30px;
+    transform: scale(.7);
+    background-color: black;
+    top: 0;
+    right: 0px;
+    position: absolute;
+    border-radius: 25px;
+  
+    
+}
